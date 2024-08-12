@@ -1,0 +1,29 @@
+.calculator {
+  background-color: rgba(211, 211, 211, 0.514);
+  width: 870px;
+  height: auto;
+  border: 4px solid black;
+}  
+
+.result{
+  width: 855px;
+  height: 80px;
+  display: inline-block;
+}
+
+h1{
+  text-align: right;
+  color: purple;
+}
+
+.buttons{
+  border-top: 2px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  
+}
+
+button{
+  padding: 20px;
+}
